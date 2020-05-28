@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="576.0" prefWidth="733.0" stylesheets="@../css/stylish.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+   <children>
+      <Label layoutX="131.0" layoutY="33.0" text="CURSE">
+         <font>
+            <Font name="Verdana" size="15.0" />
+         </font>
+      </Label>
+      <TableView fx:id="curseTable" layoutX="42.0" layoutY="61.0" prefHeight="200.0" prefWidth="229.0">
+        <columns>
+          <TableColumn fx:id="idCursaColumn" prefWidth="35.20001411437988" text="ID" />
+          <TableColumn fx:id="nrPersCursaColumn" prefWidth="76.7999496459961" text="Nr persoane" />
+            <TableColumn fx:id="capMotorCursaColumn" prefWidth="114.4000244140625" text="Capacitate motor" />
+        </columns>
+      </TableView>
+      <Label fx:id="echipaLabel" layoutX="347.0" layoutY="285.0" text="Echipa:">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <tooltip>
+            <Tooltip fx:id="echipeTooltip" text="Empty Tooltip" />
+         </tooltip>
+      </Label>
+      <TextField fx:id="cautaEchipaTextField" layoutX="405.0" layoutY="284.0" />
+      <Button fx:id="cautaButton" styleClass="buttons" layoutX="580.0" layoutY="281.0" mnemonicParsing="false" onAction="#handleCautaButton" prefHeight="26.0" prefWidth="79.0" text="Cauta">
+         <font>
+            <Font name="Verdana Bold" size="15.0" />
+         </font>
+      </Button>
+      <TableView fx:id="participantiTable" layoutX="350.0" layoutY="61.0" prefHeight="200.0" prefWidth="230.0">
+        <columns>
+          <TableColumn fx:id="numePartColumn" prefWidth="97.60003662109375" text="Nume" />
+          <TableColumn fx:id="capMotorPartColumn" prefWidth="115.20004272460938" text="Capacitate motor" />
+        </columns>
+      </TableView>
+      <Label layoutX="411.0" layoutY="33.0" text="PARTICIPANTI">
+         <font>
+            <Font name="Verdana" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="338.0" text="INSCRIERE PARTICIPANT">
+         <font>
+            <Font name="Verdana" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="378.0" text="ID Cursa:">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="412.0" text="Nume:">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="449.0" text="Echipa:">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="486.0" text="Cap motor:">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="inscrieButton" styleClass="buttons" layoutX="203.0" layoutY="531.0" mnemonicParsing="false" onAction="#handleInscrieButton" text="Inscrie">
+         <font>
+            <Font name="Verdana Bold" size="15.0" />
+         </font>
+      </Button>
+      <TextField fx:id="idTextField" layoutX="110.0" layoutY="375.0" />
+      <TextField fx:id="numeTextField" layoutX="110.0" layoutY="409.0" />
+      <TextField fx:id="echipaTextField" layoutX="110.0" layoutY="446.0" />
+      <ComboBox fx:id="capMotorComboBox" layoutX="109.0" layoutY="483.0" prefWidth="150.0" />
+      <Button fx:id="logoutButton" styleClass="buttons" layoutX="580.0" layoutY="516.0" mnemonicParsing="false" onAction="#handleLogoutButton" text="Logout" textFill="RED">
+         <font>
+            <Font name="Verdana Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="33.0" layoutY="285.0" text="Categorie:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="categorieComboBox" layoutX="110.0" layoutY="283.0" prefWidth="150.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="379.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pics/finish.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

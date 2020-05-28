@@ -1,0 +1,63 @@
+.CursaApp {
+    text-align: center;
+    align-content: center;
+    color:black;
+}
+
+.CursaTable{
+    text-align: center;
+    color:black;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Roboto Light', serif;
+    font-size: 30px;
+}
+
+body{
+    align-content: center;
+    text-align: center;
+}
+
+table.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label{
+    display: inline-block;
+    text-align: right;
+    width: 200px;
+    font-family: 'Verdana', serif;
+    font-size: 20px;
+}
+
+input{
+    font-size: 20px;
+}
+
+button{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#submitInput{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+

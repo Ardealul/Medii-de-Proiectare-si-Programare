@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4d240790-f4ec-4e96-a527-5e2459e6d99d" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZzbXBnkG3bvA3hfAWp8WPWbgRU" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../labJavaSpringRemoting" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ardeal\Desktop\mpp\labJavaRMI\Model\build\classes\java\main\model" />
+      <recent name="C:\Users\Ardeal\Desktop\mpp\labJavaRMI\CommonCode\model" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ardeal\Desktop\mpp\labJavaRMI\Networking\src\main\java\dto" />
+      <recent name="C:\Users\Ardeal\Desktop\mpp\labJavaRMI\CommonCode\model" />
+      <recent name="C:\Users\Ardeal\Desktop\mpp\labJavaRMI\CommonCode\services" />
+      <recent name="C:\Users\Ardeal\Desktop\mpp\labJavaClientServer\Client\src\main\resources" />
+      <recent name="C:\Users\Ardeal\Desktop\mpp\labJavaClientServer\Client\src\main\resources\view" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.StartClient">
+    <configuration name="StartClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StartClient" />
+      <module name="untitled.Client.main" />
+      <option name="VM_PARAMETERS" value="-Djava.rmi.server.codebase=file:$PROJECT_DIR$/CommonCode -Djava.security.policy=client.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StartServer" />
+      <module name="untitled.Server.main" />
+      <option name="VM_PARAMETERS" value="-Djava.rmi.server.codebase=file:$PROJECT_DIR$/CommonCode -Djava.rmi.server.hostname=localhost -Djava.security.policy=server.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.StartClient" />
+      <item itemvalue="Application.StartServer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StartClient" />
+        <item itemvalue="Application.StartServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d240790-f4ec-4e96-a527-5e2459e6d99d" name="Default Changelist" comment="" />
+      <created>1585844906859</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585844906859</updated>
+      <workItem from="1585844924579" duration="68659000" />
+      <workItem from="1586197264835" duration="1788000" />
+      <workItem from="1586358719318" duration="1261000" />
+      <workItem from="1586436444175" duration="669000" />
+      <workItem from="1586437199438" duration="6888000" />
+      <workItem from="1586499354635" duration="7302000" />
+      <workItem from="1586514307361" duration="1334000" />
+      <workItem from="1586538711681" duration="2043000" />
+      <workItem from="1586586965068" duration="9799000" />
+      <workItem from="1587472685886" duration="60000" />
+      <workItem from="1587473201213" duration="16681000" />
+      <workItem from="1587490775754" duration="1973000" />
+      <workItem from="1587549840963" duration="7829000" />
+      <workItem from="1587563252963" duration="372000" />
+      <workItem from="1587563771305" duration="1167000" />
+      <workItem from="1588012687360" duration="33000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Networking/src/main/java/objectProtocol/ClientObjectWorker.java</url>
+          <line>37</line>
+          <properties class="objectProtocol.ClientObjectWorker">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

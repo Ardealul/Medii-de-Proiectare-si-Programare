@@ -1,0 +1,73 @@
+syntax="proto3";
+
+message OficiuDTO{
+    string idOficiu = 1;
+    string username = 2;
+    string password = 3;
+}
+
+message Cursa{
+    int32 nrPersoane = 1;
+    int32 capMotor = 2;
+}
+
+message CursaDTO{
+    string idCursa = 1;
+    int32 nrPersoane = 2;
+    int32 capMotor = 3;
+}
+
+message Participant{
+    string nume = 1;
+    string echipa = 2;
+    int32 capMotor = 3;
+}
+
+message ParticipantDTO{
+    string idParticipant = 1;
+    string nume = 2;
+    string echipa = 3;
+    int32 capMotor = 4;
+}
+
+message ParticipantCursa{
+    string idParticipant = 1;
+    string idCursa = 2;
+}
+
+message Request{
+    enum Type{
+        Unknown = 0; Login = 1; GetOficiuByUserPass = 2; Logout = 3; GetAllParticipants = 4;
+        GetAllCursa = 5; GetAllParticipantsByTeam = 6; GetEchipe = 7; GetParticipant = 8;
+        GetCursa = 9; AddParticipantCursa = 10; UpdateCursa = 11;
+    }
+
+    Type type = 1;
+    OficiuDTO oficiuDTO = 2;
+    string username = 3;
+    string password = 4;
+    string nume = 6;
+    string echipa = 7;
+    int32 capMotor = 8;
+    string idCursa = 9;
+    ParticipantCursa participantCursa = 10;
+    CursaDTO cursaDTO = 11;
+}
+
+message Response{
+    enum Type{
+        Unknown = 0; Ok = 1; Error = 2; GetOficiuByUserPass = 3; GetAllCursa = 4;
+        GetAllParticipants = 5; GetEchipe = 6; GetParticipant = 7; GetCursa = 8;
+        NewParticipantCursaAdded = 9;
+    }
+
+    Type type = 1;
+    string eroare = 2;
+    OficiuDTO oficiuDTO = 3;
+    repeated CursaDTO curseDTO = 4;
+    repeated Participant participanti = 5;
+    string echipe = 6;
+    ParticipantDTO participantDTO = 7;
+    Cursa cursa = 8;
+}
+

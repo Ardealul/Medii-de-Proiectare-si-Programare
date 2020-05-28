@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="model.Oficiu" table="Oficiu">
+        <id name="id"  type="string" column="idOficiu"/>
+        <property
+                name="username"
+                type="string"
+                column="username"
+                />
+        <property
+                name="password"
+                type="string"
+                column="password"
+                />
+    </class>
+</hibernate-mapping>

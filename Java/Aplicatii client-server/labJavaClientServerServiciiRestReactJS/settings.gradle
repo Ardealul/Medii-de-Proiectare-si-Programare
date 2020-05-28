@@ -1,0 +1,10 @@
+rootProject.name = 'untitled'
+include 'Model'
+include 'Persistence'
+include 'Services'
+include 'Client'
+include 'Server'
+include 'Networking'
+include 'RESTServices'
+include 'ReactJSWebClient'
+
